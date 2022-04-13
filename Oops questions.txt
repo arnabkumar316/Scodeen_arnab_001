@@ -1,0 +1,8 @@
+Write a Python program to sort a list of tuples using Lambda.
+
+
+Write a Python program to find the list with maximum and minimum length using lambda.
+
+
+
+create python class and write here some function for Calculator.

@@ -1,0 +1,38 @@
+'''import csv
+
+
+with open("C:\\Users\\chand\\OneDrive\\Desktop\\std.csv","a",newline='') as f:
+    w = csv.writer(f)
+    w.writerow("https://client_name//db_name//table_name//list_var_name")
+    num_emp = int(input("Enter no. of emp:-"))
+
+    for i in range(num_emp):
+      
+  e_no = input("Enter Emp Number:-")
+   
+     e_name = input("Enter Emp Name:-")
+     
+   e_sal = int(input("Enter Emp Salary:-"))
+      
+  e_add = input("Enter your address:-")
+      
+  w.writerow([e_no,e_name,e_sal,e_add])
+
+print("Successful")'''
+import csv
+
+
+f = open("C:\\Users\\chand\\OneDrive\\Desktop\\std.csv","r")
+result = csv.reader
+(f)
+
+data = list(result)
+#print(data)
+
+for line in data:
+  
+  for word in line:
+   
+     print(word,"\t",end='')
+   
+ print()

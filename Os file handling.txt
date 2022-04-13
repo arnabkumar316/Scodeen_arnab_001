@@ -1,0 +1,17 @@
+import os,sys
+
+f_name = input("file name:-")
+
+
+if os.path.isfile("C:\\Users\\chand\\OneDrive\\Desktop\\home.txt"):
+
+    print("File Exits:-",f_name)
+   
+ f = open("C:\\Users\\chand\\OneDrive\\Desktop\\home.txt","r")
+
+
+else:
+  
+  print("File does not exit",f_name)
+ 
+   sys.exit(0)
